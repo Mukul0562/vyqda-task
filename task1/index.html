@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Editable Table</title>
+    
     <script
       src="https://unpkg.com/react@18/umd/react.development.js"
       crossorigin
@@ -62,11 +62,12 @@
 
         React.useEffect(() => {
           localStorage.setItem("tableData", JSON.stringify(tableData));
+          console.log("Updated Table Data:", tableData); 
         }, [tableData]);
-
+   
         return (
           <div>
-            <h1>Editable Table - MONTH 1</h1>
+            
             <table>
               <thead>
                 <tr>
