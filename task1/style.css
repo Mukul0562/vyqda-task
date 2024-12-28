@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .month-row {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 166px;
+  }
+  
+  .data-col {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    width: 30%;
+  }
+  
+  td input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    text-align: left;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  td input:focus {
+    background-color: white;
+  }
+  
